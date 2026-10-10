@@ -2,7 +2,7 @@
 
 ## Status and boundaries
 
-This is a bounded, local-only illustration for presales conversations: retrieve relevant snippets from a tiny synthetic corpus and return them as evidence for a question. It uses deterministic keyword overlap, not an LLM or Azure service. It does **not** demonstrate Azure AI Foundry, Azure AI Search, production security, model quality, customer data handling, or a production-ready RAG architecture.
+This is a bounded, local-only illustration for presales conversations: retrieve relevant snippets from a tiny synthetic corpus and return them as evidence for a question. It uses deterministic keyword overlap, not an LLM or Azure service. It does **not** demonstrate Microsoft Foundry (formerly Azure AI Foundry), Azure AI Search, production security, model quality, customer data handling, or a production-ready RAG architecture.
 
 The demo architecture and constraints were documented in `docs/architecture.md` before implementation.
 

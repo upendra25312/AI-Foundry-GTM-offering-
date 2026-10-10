@@ -15,7 +15,7 @@ Hub/spoke or customer-approved network + firewall/DNS
       |
 Workload subnet / private endpoints (where supported and approved)
       +---- application or AI workload identity
-      +---- Azure AI Foundry project/model endpoint (region/model validated)
+      +---- Microsoft Foundry project/model endpoint (formerly Azure AI Foundry; region/model validated)
       +---- Azure AI Search index (synthetic or customer-approved content)
       +---- approved storage / Key Vault integration as required
       |
@@ -46,4 +46,4 @@ For each decision capture: ID/date; question; context; options; decision; owner/
 
 ## Bounded demo design (documented before implementation)
 
-The repository demo in [`../demos/local-rag/README.md`](../demos/local-rag/README.md) is a local-only illustration of a retrieval-augmented question-answering flow using synthetic documents, deterministic keyword scoring, and extractive snippets. It does not call Azure AI Foundry, Azure AI Search, or any external service and does not demonstrate production security, model quality, or service availability. Its purpose is to explain a workload boundary and stimulate platform discovery; an Azure-connected version requires a separate design, customer approvals, current regional/cost checks, and security review.
+The repository demo in [`../demos/local-rag/README.md`](../demos/local-rag/README.md) is a local-only illustration of a retrieval-augmented question-answering flow using synthetic documents, deterministic keyword scoring, and extractive snippets. It does not call Microsoft Foundry (formerly Azure AI Foundry), Azure AI Search, or any external service and does not demonstrate production security, model quality, or service availability. Its purpose is to explain a workload boundary and stimulate platform discovery; an Azure-connected version requires a separate design, customer approvals, current regional/cost checks, and security review.
